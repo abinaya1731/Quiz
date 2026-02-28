@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    width: 80%;
+}
+
+button {
+    padding: 8px 15px;
+    background: #4facfe;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00c6ff;
+}
+
+.option {
+    display: block;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.wrong {
+    background-color: lightcoral;
+}
+
+#quizBox {
+    display: none;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
